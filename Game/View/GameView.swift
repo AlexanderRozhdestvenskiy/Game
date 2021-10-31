@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
     
     @StateObject private var viewModel = GameViewModel()
     
@@ -47,7 +47,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GameView()
             .preferredColorScheme(.dark)
     }
 }

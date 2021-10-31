@@ -25,7 +25,7 @@ struct FirstView: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: GameView()) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 36)
                             .frame(width: 300, height: 120, alignment: .center)
